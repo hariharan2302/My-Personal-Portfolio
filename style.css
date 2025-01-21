@@ -15,10 +15,12 @@ body {
 }
 
 header.hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1600x900/?technology,robotics') no-repeat center/cover;
+    background: url('img/background-image.png') no-repeat center center/cover;
     color: white;
+    padding: 100px 0;
     text-align: center;
-    padding: 100px 20px;
+    position: relative;
+    min-height: 100vh;
 }
 
 header h1 {
